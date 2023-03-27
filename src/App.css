@@ -1,0 +1,63 @@
+.confirm-btn {
+  padding:0 1rem;
+  height: 1.75rem;
+  border-radius: 0.3125rem;
+  border: 0.125rem solid #31bccb;
+  text-align: center;
+  line-height: 1.5rem;
+  color: #3efff8;
+  background: #010f1db8;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.confirm-btn:hover {
+  background: #010f1d;
+}
+#system .system-btn {
+  background: #010f1db8;
+  color: #98a7f4;
+  border-color: #98a7f4;
+  height: 40px;
+  line-height: 36px;
+  transition: all 0.6s;
+}
+#system .system-btn:hover {
+  background: #98a7f4;
+  color: #fff;
+}
+/* 蒙版样式 */
+.display-mask,
+.hidden-mask {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/images/mask-expand.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  overflow: hidden;
+  pointer-events: none;
+}
+.total-mask {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/images/totalmask.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  overflow: hidden;
+  pointer-events: none;
+}
+.hidden-mask {
+  background: url("assets/images/mask-shrink.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  overflow: hidden;
+  pointer-events: none;
+}
+.el-loading-mask {
+  background-color: transparent;
+}

@@ -1,0 +1,299 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3271272 */
+  /* Color fonts */
+  src: url("iconfont.woff2?t=1657446393843") format("woff2"),
+    url("iconfont.woff?t=1657446393843") format("woff"),
+    url("iconfont.ttf?t=1657446393843") format("truetype");
+}
+
+.iconfont,
+.iconfont-slt {
+  font-family: "iconfont" !important;
+  font-size: 1rem;
+  font-style: normal;
+  color: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.big-iconfont,
+.big-iconfont-slt {
+  font-family: "iconfont" !important;
+  font-size: 1.5rem;
+  font-style: normal;
+  color: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.small-iconfont,
+.small-iconfont-slt {
+  font-family: "iconfont" !important;
+  font-size: 0.75rem;
+  font-style: normal;
+  color: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont-slt,
+.big-iconfont-slt,
+.small-iconfont-slt {
+  color: yellow;
+}
+
+.icon-green-pen:before {
+  content: "\e82d";
+  color: green;
+}
+.icon-yellow-pen:before {
+  content: "\e82d";
+  color: yellow;
+}
+
+.icon-orange-pen:before {
+  content: "\e82d";
+  color: orange;
+}
+
+.icon-red-pen:before {
+  content: "\e82d";
+  color: red;
+}
+.icon-updata:before {
+  content: "\eb2c";
+  font-size: 1.375rem;
+  color: #31bccb;
+}
+.icon-refresh:before {
+  content: "\e653";
+  color: #31bccb;
+}
+
+.icon-refresh-slt:before {
+  content: "\ee3c";
+}
+
+.icon-pen:before {
+  content: "\e82d";
+}
+
+.icon-Cruise3D-slt:before {
+  content: "\ee47";
+}
+
+.icon-induationAnalysis-slt:before {
+  content: "\ee48";
+}
+
+.icon-induationAnalysis:before {
+  content: "\e61a";
+}
+
+.icon-Cruise3D:before {
+  content: "\e655";
+}
+
+.icon-repeat:before {
+  content: "\e658";
+}
+
+.icon-qiehuan1:before {
+  content: "\e63f";
+}
+
+.icon-close:before {
+  content: "\e611";
+}
+
+.icon-modelLayer-slt:before {
+  content: "\ee44";
+}
+
+.icon-floodLayer:before {
+  content: "\e60c";
+}
+
+.icon-functionLayer:before {
+  content: "\e606";
+}
+
+.icon-modelLayer:before {
+  content: "\e708";
+}
+
+.icon-functionLayer-slt:before {
+  content: "\ee45";
+}
+
+.icon-floodLayer-slt:before {
+  content: "\ee46";
+}
+
+.icon-station:before {
+  content: "\e652";
+}
+
+.icon-triangle-slt:before {
+  content: "\ee43";
+}
+
+.icon-triangle:before {
+  content: "\e669";
+}
+
+.icon-triangulation:before {
+  content: "\e615";
+}
+
+.icon-triangulation-slt:before {
+  content: "\ee42";
+}
+
+.icon-timeLayer-slt:before {
+  content: "\ee37";
+}
+
+.icon-ranging-slt:before {
+  content: "\ee3d";
+}
+
+.icon-positionLayer-slt:before {
+  content: "\ee3a";
+}
+
+.icon-monitor-slt:before {
+  content: "\ee3e";
+}
+
+.icon-weatherLayer-slt:before {
+  content: "\ee3f";
+}
+
+.icon-M-surface-slt:before {
+  content: "\ee41";
+}
+
+.icon-follow:before {
+  content: "\e60d";
+}
+
+.icon-street:before {
+  content: "\e874";
+}
+
+.icon-data:before {
+  content: "\e601";
+}
+
+.icon-model:before {
+  content: "\e610";
+}
+
+.icon-warn:before {
+  content: "\e62d";
+}
+
+.icon-password:before {
+  content: "\e619";
+}
+
+.icon-user:before {
+  content: "\e676";
+}
+
+.icon-pause:before {
+  content: "\e638";
+}
+
+.icon-player:before {
+  content: "\e87c";
+}
+
+.icon-radar:before {
+  content: "\e901";
+}
+
+.icon-switch-slt:before {
+  content: "\e608";
+}
+
+.icon-switch:before {
+  content: "\e60f";
+}
+
+.icon-rain:before {
+  content: "\e643";
+}
+
+.icon-calendar:before {
+  content: "\e6a6";
+}
+
+.icon-export:before {
+  content: "\e632";
+}
+
+.icon-wind:before {
+  content: "\e672";
+}
+
+.icon-temper:before {
+  content: "\e788";
+}
+
+.icon-actuality:before {
+  content: "\e7b7";
+}
+
+.icon-erase:before {
+  content: "\e670";
+}
+
+.icon-checkbox:before {
+  content: "\ee33";
+}
+
+.icon-location:before {
+  content: "\e6a2";
+}
+
+.icon-baseMap:before {
+  content: "\e605";
+}
+
+.icon-timeLayer:before {
+  content: "\e614";
+}
+
+.icon-ranging:before {
+  content: "\e600";
+}
+
+.icon-weatherLayer:before {
+  content: "\e613";
+}
+
+.icon-M-surface:before {
+  content: "\e65d";
+}
+
+.icon-monitor:before {
+  content: "\e6a5";
+}
+
+.icon-radio:before {
+  content: "\e782";
+}
+
+.icon-positionLayer:before {
+  content: "\e635";
+}
+
+.icon-radio-slt:before {
+  content: "\ee38";
+}
+
+.icon-checkbox-slt:before {
+  content: "\ee3b";
+}

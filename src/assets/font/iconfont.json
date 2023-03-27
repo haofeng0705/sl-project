@@ -1,0 +1,422 @@
+{
+  "id": "3271272",
+  "name": "SL",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5387672",
+      "name": "云上传",
+      "font_class": "updata",
+      "unicode": "eb2c",
+      "unicode_decimal": 60204
+    },
+    {
+      "icon_id": "13177873",
+      "name": "画笔",
+      "font_class": "pen",
+      "unicode": "e82d",
+      "unicode_decimal": 59437
+    },
+    {
+      "icon_id": "29963998",
+      "name": "运动飞机",
+      "font_class": "Cruise3D-slt",
+      "unicode": "ee47",
+      "unicode_decimal": 60999
+    },
+    {
+      "icon_id": "29964006",
+      "name": "洪水",
+      "font_class": "induationAnalysis-slt",
+      "unicode": "ee48",
+      "unicode_decimal": 61000
+    },
+    {
+      "icon_id": "21109259",
+      "name": "洪水",
+      "font_class": "induationAnalysis",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "23403698",
+      "name": "运动飞机",
+      "font_class": "Cruise3D",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "11248290",
+      "name": "切换",
+      "font_class": "repeat",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "20417555",
+      "name": "切换",
+      "font_class": "qiehuan1",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "7040877",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "29088032",
+      "name": "model",
+      "font_class": "modelLayer-slt",
+      "unicode": "ee44",
+      "unicode_decimal": 60996
+    },
+    {
+      "icon_id": "1275990",
+      "name": "淹没过程",
+      "font_class": "floodLayer",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1391280",
+      "name": "功能管理",
+      "font_class": "functionLayer",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "25671811",
+      "name": "model",
+      "font_class": "modelLayer",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "29088119",
+      "name": "功能管理",
+      "font_class": "functionLayer-slt",
+      "unicode": "ee45",
+      "unicode_decimal": 60997
+    },
+    {
+      "icon_id": "29088150",
+      "name": "淹没过程",
+      "font_class": "floodLayer-slt",
+      "unicode": "ee46",
+      "unicode_decimal": 60998
+    },
+    {
+      "icon_id": "2777897",
+      "name": "自动监测站",
+      "font_class": "station",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "28812406",
+      "name": "三角测量",
+      "font_class": "triangle-slt",
+      "unicode": "ee43",
+      "unicode_decimal": 60995
+    },
+    {
+      "icon_id": "18880428",
+      "name": "三角测量",
+      "font_class": "triangle",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "22447248",
+      "name": "三角测量1",
+      "font_class": "triangulation",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "28812399",
+      "name": "三角测量1",
+      "font_class": "triangulation-slt",
+      "unicode": "ee42",
+      "unicode_decimal": 60994
+    },
+    {
+      "icon_id": "28446493",
+      "name": "刷新",
+      "font_class": "refresh-slt",
+      "unicode": "ee3c",
+      "unicode_decimal": 60988
+    },
+    {
+      "icon_id": "28446259",
+      "name": "时间",
+      "font_class": "timeLayer-slt",
+      "unicode": "ee37",
+      "unicode_decimal": 60983
+    },
+    {
+      "icon_id": "28446542",
+      "name": "测距",
+      "font_class": "ranging-slt",
+      "unicode": "ee3d",
+      "unicode_decimal": 60989
+    },
+    {
+      "icon_id": "28446484",
+      "name": "瞄准",
+      "font_class": "positionLayer-slt",
+      "unicode": "ee3a",
+      "unicode_decimal": 60986
+    },
+    {
+      "icon_id": "28446546",
+      "name": "监测室",
+      "font_class": "monitor-slt",
+      "unicode": "ee3e",
+      "unicode_decimal": 60990
+    },
+    {
+      "icon_id": "28447037",
+      "name": "图层",
+      "font_class": "weatherLayer-slt",
+      "unicode": "ee3f",
+      "unicode_decimal": 60991
+    },
+    {
+      "icon_id": "28448863",
+      "name": "测面",
+      "font_class": "M-surface-slt",
+      "unicode": "ee41",
+      "unicode_decimal": 60993
+    },
+    {
+      "icon_id": "2718726",
+      "name": "关注",
+      "font_class": "follow",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5838808",
+      "name": "街道",
+      "font_class": "street",
+      "unicode": "e874",
+      "unicode_decimal": 59508
+    },
+    {
+      "icon_id": "12001512",
+      "name": "数据",
+      "font_class": "data",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12694036",
+      "name": "模型管理",
+      "font_class": "model",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "14560733",
+      "name": "预警",
+      "font_class": "warn",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "338278",
+      "name": "密码",
+      "font_class": "password",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "24271956",
+      "name": "用户管理",
+      "font_class": "user",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "573575",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "2076218",
+      "name": "播放2",
+      "font_class": "player",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "1727588",
+      "name": "405雷达、探测",
+      "font_class": "radar",
+      "unicode": "e901",
+      "unicode_decimal": 59649
+    },
+    {
+      "icon_id": "4925462",
+      "name": "开关-开",
+      "font_class": "switch-slt",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4925963",
+      "name": "开关-关",
+      "font_class": "switch",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "6678939",
+      "name": "降水",
+      "font_class": "rain",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "7339835",
+      "name": "日历",
+      "font_class": "calendar",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "9012604",
+      "name": "导出",
+      "font_class": "export",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "11192613",
+      "name": "风场",
+      "font_class": "wind",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "13805010",
+      "name": "温度",
+      "font_class": "temper",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "15523876",
+      "name": "b_观测实况",
+      "font_class": "actuality",
+      "unicode": "e7b7",
+      "unicode_decimal": 59319
+    },
+    {
+      "icon_id": "21826877",
+      "name": "擦除",
+      "font_class": "erase",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "27402510",
+      "name": "复选框-默认",
+      "font_class": "checkbox",
+      "unicode": "ee33",
+      "unicode_decimal": 60979
+    },
+    {
+      "icon_id": "3663377",
+      "name": "定位",
+      "font_class": "location",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "5377186",
+      "name": "底图",
+      "font_class": "baseMap",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "8019605",
+      "name": "时间",
+      "font_class": "timeLayer",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "8333328",
+      "name": "测距",
+      "font_class": "ranging",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10904998",
+      "name": "图层",
+      "font_class": "weatherLayer",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "11794123",
+      "name": "测面",
+      "font_class": "M-surface",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "12708137",
+      "name": "监测室",
+      "font_class": "monitor",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "19109118",
+      "name": "单选框",
+      "font_class": "radio",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "24967127",
+      "name": "瞄准",
+      "font_class": "positionLayer",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "28446385",
+      "name": "单选框-选中",
+      "font_class": "radio-slt",
+      "unicode": "ee38",
+      "unicode_decimal": 60984
+    },
+    {
+      "icon_id": "1279405",
+      "name": "刷新",
+      "font_class": "refresh",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "28446486",
+      "name": "复选框-选中",
+      "font_class": "checkbox-slt",
+      "unicode": "ee3b",
+      "unicode_decimal": 60987
+    }
+  ]
+}
