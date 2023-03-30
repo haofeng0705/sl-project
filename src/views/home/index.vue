@@ -175,7 +175,7 @@ export default {
           item.img = require(`@/assets/images/${item.id}-slt.png`);
       });
     },
-    //初始化Cesium视图
+    //初始化Cesium视图 由 cesium 组件传过来的
     initViewer(viewer) {
       global.cesiumViewer = viewer; //将viewer保存到windows
       this.viewerFlag = true;
@@ -189,18 +189,19 @@ export default {
       }
     },
     getWarnMsg() {
-      getWarningMsgList({ hour: 1000 })
-        .then((res) => {
-          if (res && res.code == 200) {
-            const { data } = res;
-            this.warnTextList = data.map((item) => {
-              return { name: item.type, text: item.msg };
-            });
-          }
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      // getWarningMsgList({ hour: 1000 })
+      //   .then((res) => {
+      //     if (res && res.code == 200) {
+      //       const { data } = res;
+      //       this.warnTextList = data.map((item) => {
+      //         return { name: item.type, text: item.msg };
+      //       });
+      //     }
+      //   })
+      //   .catch((error) => {
+      //     console.log(error);
+      //   });
+      this.warnTextList = [{ name: 'warnMsg1', text: '小郝提醒你今日降温 5 度,请您加件衣服' },{ name: 'warnMsg2', text: '小郝提醒你记得多喝热水!!!!' }];
     },
     acquireDataTime() {
       let updataTime = DateFormat();
@@ -376,6 +377,7 @@ export default {
 .active {
   transform: translateY(-0.5rem);
 }
+/* hover 效果 */
 #navigation ul li a:hover {
   transform: translateY(-0.5rem);
 }

@@ -55,7 +55,7 @@
       </container-panel>
     </left-panel>
     <tools-panel
-      style="right: 0; top: 8rem"
+      style="right: 0; top: 4rem"
       :tools="layerTools"
       @handleToolsPanel="handleToolsPanel"
     ></tools-panel>
@@ -339,7 +339,7 @@ export default {
     CesiumCore.removeEventHandler(cesiumViewer); //移除所有handle事件
   },
   methods: {
-    initMonitor() {
+    initMonitor() { //从配置文件初始化导入
       this.positionLayer = positionLayer;
       Object.keys(monitorConfig).forEach((item) => {
         this[item] = cloneDeep(monitorConfig[item]);
@@ -589,6 +589,7 @@ export default {
       });
     },
     addPoup(pickdObject) {
+      console.log('popup->',popup)
       if (this.poupInfo) this.poupInfo.destoryPoup(); //判断poupInfo是否存在 存在则把已注册的点击事件销毁 否则多次注册
       if (this.$refs.poupInfo) {
         let poupDom = this.$refs.poupInfo.$refs.poupShow;
@@ -618,16 +619,16 @@ export default {
       this.tableData2 = [];
       if (id == "pie-monitor") {
         this.getStaionListInfo().then((res) => {
-          // this.getMinRainFallbyStation({
-          //   stTime: DateFormat(this.timeRange[0]),
-          //   endTime: DateFormat(this.timeRange[1]),
-          //   stationId: this.stationList.toString(),
-          // });
-          this.getMinRainFallbyStation();
+          this.getMinRainFallbyStation({
+            stTime: DateFormat(this.timeRange[0]),
+            endTime: DateFormat(this.timeRange[1]),
+            stationId: this.stationList.toString(),
+          });
+          // this.getMinRainFallbyStation();
         });
         this.hydrologyType = "";
         this.flag.stationFlag = true;
-        // this.defaultStaionList = ["56288", "S1013"];
+        this.defaultStaionList = ["56288", "S1013"];
         this.detailsRainType = "10分钟";
         this.detailParam = cloneDeep(this.pieDetailParam);
         this.trueStaionList = this.chartDetailList;
@@ -1125,6 +1126,8 @@ export default {
       if (id && this[id]) {
         if (bool) {
           this.showLayer = this[id];
+          // console.log('this.showLayer->', this.showLayer)
+          
           this.flag.layerFlag = true;
           return;
         }

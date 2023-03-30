@@ -129,6 +129,7 @@ export default {
   },
   methods: {
     radioFunc(source, layerName, items, item) {
+      // console.log(source, layerName, items, item)
       let DataSourceName = `${source}-${item.id}`; //拼接实体数据集name
       let layer = CesiumCore.getDataSourcesByAttr(
         //通过实体数据集的name属性查找数据集

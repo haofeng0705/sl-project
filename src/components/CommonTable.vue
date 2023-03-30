@@ -192,7 +192,7 @@ export default {
         return "nograde-row";
       }
     },
-    handleRow(val) {
+    handleRow(val) { 
       this.$emit("handleRow", val);
     },
     handleSelectionChange(val) {

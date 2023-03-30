@@ -1,3 +1,4 @@
+<!-- 主要的就是这个组件 -->
 <template>
   <div class="map-box">
     <div id="cesiumContainer"><slot name="poup-info"></slot></div>

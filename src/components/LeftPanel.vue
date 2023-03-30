@@ -4,7 +4,7 @@
       :title="istrue ? scaleExpand : scaleShrink"
       :class="istrue ? 'scale-button-expand' : 'scale-button-shrink'"
       @click="shrink()"
-    ></div>
+    ></div> 
     <div class="content">
       <div class="line"></div>
       <slot></slot>

@@ -21,7 +21,7 @@
   </div>
 </template>
 
-<script>
+<script> 
 import { radioSelect } from "@/selfTools/FormatData.js";
 export default {
   name: "ChartPanel",

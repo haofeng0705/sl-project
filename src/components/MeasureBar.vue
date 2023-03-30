@@ -20,6 +20,7 @@
 </template>
 
 <script>
+//主要调用 api
 import { radioSelect } from "@/selfTools/FormatData.js";
 export default {
   name: "MeasureBar",

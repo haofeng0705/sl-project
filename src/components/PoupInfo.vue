@@ -27,7 +27,7 @@
   </div>
 </template>
 
-<script>
+<script >
 export default {
   name: "PoupInfo",
   components: {},
@@ -42,7 +42,8 @@ export default {
   data() {
     return {};
   },
-  mounted() {},
+  mounted() {
+  },
   methods: {
     closePoup() {
       // this.$refs.poupShow.style.display = "none";

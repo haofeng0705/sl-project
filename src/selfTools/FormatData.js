@@ -1,5 +1,5 @@
 
-
+// 确保 radio 选择的唯一性
 function radioSelect(items, item) {
   items.forEach((item) => {
     item.isSelect = false;

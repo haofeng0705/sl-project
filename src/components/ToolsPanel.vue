@@ -24,6 +24,7 @@ import { radioSelect } from "@/selfTools/FormatData.js";
 export default {
   name: "ToolsPanel",
   props: {
+    //从配置文件导入
     tools: {
       type: Array,
       default: () => {
@@ -38,16 +39,16 @@ export default {
     selectTarget(items, item) {
       if (item.isSelect) {
         item.isSelect = false;
-        this.$emit("handleToolsPanel", item.id, false);
+        this.$emit("handleToolsPanel", item.id, false);//关闭打开的
         return;
       }
       radioSelect(items, item);
-      this.$emit("handleToolsPanel", item.id, true);
+      this.$emit("handleToolsPanel", item.id, true);//关闭打开的+打开新的
     },
   },
   mounted() {
     let toolCount = this.tools.length;
-    this.$refs.toolsPanel.style.width = toolCount * 3 + "rem";
+    this.$refs.toolsPanel.style.width = toolCount * 3 + "rem";//动态实现宽度的增加
   },
 };
 </script>

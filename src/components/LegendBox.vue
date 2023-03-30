@@ -5,6 +5,7 @@
       <span class="unit">{{ legend.unit }}</span>
     </div>
     <div class="legend-content">
+      <!-- 左边的文字 -->
       <div class="value-bar">
         <ul>
           <li v-for="(item, index) in legend.valueData" :key="index">
@@ -12,6 +13,7 @@
           </li>
         </ul>
       </div>
+      <!-- 色块图 -->
       <div class="color-bar">
         <ul>
           <li v-for="(item, index) in legend.colorData" :key="index">

@@ -25,6 +25,7 @@
 </template>
 
 <script>
+// 左 panel 的内容
 import { radioSelect } from "@/selfTools/FormatData.js";
 export default {
   name: "ContainerPanel",

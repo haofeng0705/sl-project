@@ -3,7 +3,7 @@ import { get, post, put } from "./request";
 const BaseUrl = "http://121.37.165.19:8083";
 //const BaseUrl = "http://10.194.130.127:8083";//
 
-const getWarningMsgList = get(`${BaseUrl}/getWarningMsgListByRecentHour`)
+const getWarningMsgList = get(`${BaseUrl}/getWarningMsgListByRecentHour`) //服务器拿不到数据
 
 const getDictionary = get(`${BaseUrl}/dictionary/fetchDictionary`)
 
