@@ -60,6 +60,7 @@ function timeSort(c, d) {
 }
 
 /* ajax轮询封装 */
+// 接受一个参数 methods，表示需要轮询的请求方法，该方法会每隔 5 分钟进行一次轮询，如果轮询时间超过 5 小时则刷新页面。
 function turnQuery(methods) {
   var startTime = new Date().getTime(); //现在的时间
   var interval = setInterval(() => {

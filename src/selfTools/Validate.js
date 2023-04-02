@@ -40,6 +40,9 @@ function isPhone(value, callback) {
 }
 // 密码验证
 function isPassword(value, callback) {
+//   (?!\D+$) 表示匹配时，该字符串不能全部由非数字字符组成，即必须至少包含一个数字；
+// (?![^a-zA-Z]+$) 表示匹配时，该字符串不能全部由非字母字符组成，即必须至少包含一个字母；
+// \S{6,20} 表示匹配至少6个字符，至多20个字符，这里\S表示任意非空白字符。
   let regex = /^(?!\D+$)(?![^a-zA-Z]+$)\S{6,20}$/; //6-20位字母数字集合
   if (!value) {
     callback({ type: 'error', message: '请输入密码' });

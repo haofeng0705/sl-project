@@ -1,16 +1,19 @@
 import { cloneDeep, oneDToTwoD } from "@/selfTools/FormatData.js";
-
+//主要用于从图片数据中获取画布信息。
 class CanvasInfo {
+    //图片路径 imgSrc、画布宽度 width 和画布高度 height 三个参数
     constructor(imgSrc, width, height) {
         this.imgSrc = imgSrc;
         this.width = width;
         this.height = height
     }
+    //用于获取画布信息。
     getCanvasBand() {
         return new Promise((resolve, reject) => {
-            let imgObj = new Image();
+            let imgObj = new Image();//首先创建一个 Image 对象
             imgObj.src = this.imgSrc
             imgObj.crossOrigin = "";
+            //Fires immediately after the browser loads the object.
             imgObj.onload = () => {
                 let canvas = document.createElement("canvas");
                 canvas.width = this.width;
